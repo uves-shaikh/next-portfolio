@@ -49,7 +49,9 @@
 
   .app__work-item {
     width: 270px;
+    height: 400px;
     flex-direction: column;
+    display: flex;
 
     margin: 2rem;
     padding: 1rem;
@@ -66,12 +68,14 @@
 
     @media screen and (min-width: 2000px) {
       width: 470px;
+      height: 500px;
       padding: 1.25rem;
       border-radius: 0.75rem;
     }
 
     @media screen and (max-width: 300px) {
       width: 100%;
+      height: auto;
       margin: 1rem;
     }
   }
@@ -135,14 +139,26 @@
   width: 100%;
   position: relative;
   flex-direction: column;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
 
   h4 {
     margin-top: 1rem;
     line-height: 1.5;
+    margin-bottom: 0.5rem;
 
     @media screen and (min-width: 2000px) {
       margin-top: 3rem;
     }
+  }
+
+  p {
+    flex: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
   }
 
   .app__work-tag {

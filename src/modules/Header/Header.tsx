@@ -2,8 +2,9 @@
 import { motion } from "framer-motion";
 import { NavigationDots } from "@/components";
 import "./Header.scss";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs, FaReact } from "react-icons/fa";
+import { SiNeo4J } from "react-icons/si";
 
 const scaleVariants = {
   whileInView: {
@@ -61,11 +62,11 @@ const Header = () => (
           whileInView={scaleVariants.whileInView}
           className="app__header-circles"
         >
-          <div className="app__flex text-sky-400">
-            <RiTailwindCssFill />
+          <div className="app__flex text-green-500">
+            <SiNeo4J />
           </div>
-          <div className="app__flex text-cyan-400">
-            <FaReact />
+          <div className="app__flex text-black">
+            <RiNextjsFill />
           </div>
           <div className="app__flex text-green-500">
             <FaNodeJs />

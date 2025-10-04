@@ -1,21 +1,45 @@
 export const works = [
   {
+    title: "OmniGrowthOS",
+    description:
+      "Business growth operating system platform with three distinct panels — web interface, admin dashboard, and data correction panel. Features real-time notifications and Mapbox integration for spatial data visualization.",
+    projectLink: "https://www.omnigrowthos.io",
+    imgUrl: "/works/portfolio.jpg",
+  },
+  {
+    title: "FlowRad.AI",
+    description:
+      "AI-Powered Radiology Reporting Platform with structured templates, auto-filled findings, and guided reporting approach. Integrated Clerk for authentication and Razorpay for payments.",
+    projectLink: "https://app.flowrad.ai",
+    imgUrl: "/works/cinesphere.png",
+  },
+  {
+    title: "Macarne",
+    description:
+      "Network infrastructure services platform built with Next.js app-router architecture. Features admin panel for inventory management and server/client components for optimal performance.",
+    projectLink: "https://macarne.com/",
+    imgUrl: "/works/mealmates.png",
+  },
+  {
     title: "Portfolio Website",
-    description: "A personal portfolio showcasing my projects and skills.",
-    projectLink: "#",
+    description:
+      "A personal portfolio showcasing my projects and skills built with Next.js and modern web technologies.",
+    projectLink: "https://uves-shaikh.github.io/portfolio/",
     codeLink: "https://github.com/uves-shaikh/portfolio",
     imgUrl: "/works/portfolio.jpg",
   },
   {
     title: "Footique - Shoe Store",
-    description: "An e-commerce platform for stylish footwear.",
+    description:
+      "An e-commerce platform for stylish footwear with modern UI and seamless shopping experience.",
     projectLink: "http://footique-frontend.vercel.app",
     codeLink: "https://github.com/uves-shaikh/Footique",
     imgUrl: "/works/shoes.png",
   },
   {
     title: "SuperDental - Dentist Appointments",
-    description: "An online appointment booking system for dental clinics.",
+    description:
+      "An online appointment booking system for dental clinics with user-friendly interface.",
     projectLink: "https://superdentall.000webhostapp.com/index.php",
     codeLink: "https://github.com/uves-shaikh/SuperDental",
     imgUrl: "/works/dentist.png",

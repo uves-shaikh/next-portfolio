@@ -1,17 +1,11 @@
+import { FaGitAlt, FaNodeJs, FaReact } from "react-icons/fa";
 import {
-  FaAws,
-  FaDocker,
-  FaGitAlt,
-  FaGithub,
-  FaNodeJs,
-  FaReact,
-} from "react-icons/fa";
-import {
+  SiClerk,
   SiExpress,
   SiFirebase,
   SiFramer,
   SiGraphql,
-  SiJavascript,
+  SiMapbox,
   SiMongodb,
   SiNeo4J,
   SiNextdotjs,
@@ -20,7 +14,6 @@ import {
   SiRedux,
   SiTailwindcss,
   SiTypescript,
-  SiVercel,
 } from "react-icons/si";
 
 export const skills = [
@@ -83,5 +76,30 @@ export const skills = [
     name: "Firebase",
     bgColor: "bg-yellow-100",
     icon: <SiFirebase className="text-yellow-500" />,
+  },
+  {
+    name: "React.js",
+    bgColor: "bg-blue-100",
+    icon: <FaReact className="text-blue-500" />,
+  },
+  {
+    name: "Redux",
+    bgColor: "bg-purple-100",
+    icon: <SiRedux className="text-purple-500" />,
+  },
+  {
+    name: "Framer Motion",
+    bgColor: "bg-pink-100",
+    icon: <SiFramer className="text-pink-500" />,
+  },
+  {
+    name: "Mapbox",
+    bgColor: "bg-green-100",
+    icon: <SiMapbox className="text-green-500" />,
+  },
+  {
+    name: "Clerk",
+    bgColor: "bg-indigo-100",
+    icon: <SiClerk className="text-indigo-500" />,
   },
 ];

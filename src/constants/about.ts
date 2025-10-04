@@ -1,26 +1,26 @@
 export const abouts = [
   {
-    title: "Web Development",
+    title: "Full-Stack Development",
     description:
-      "Experienced in creating responsive, efficient, and user-friendly websites tailored to business needs.",
+      "Experienced in building scalable full-stack applications using React.js, Next.js, and GraphQL with modern architecture patterns.",
     imgUrl: "/about01.png",
   },
   {
-    title: "Frontend Development",
+    title: "Database Design & Optimization",
     description:
-      "Specialize in designing intuitive and visually appealing user interfaces using modern frameworks and technologies.",
+      "Expert in designing and optimizing database schemas with MongoDB, PostgreSQL, and Neo4j, reducing query response times by up to 40%.",
     imgUrl: "/about02.png",
   },
   {
-    title: "Backend Development",
+    title: "UI/UX Engineering",
     description:
-      "Proficient in building scalable, secure, and high-performing backend systems to support diverse applications.",
+      "Specialized in creating responsive and animated UI components with Framer Motion and TailwindCSS, increasing user engagement by 25%.",
     imgUrl: "/about03.png",
   },
   {
-    title: "MERN Stack Expertise",
+    title: "System Integration",
     description:
-      "Adept at developing end-to-end solutions using MongoDB, Express, React, and Node.js for seamless integration.",
+      "Proficient in integrating third-party services like Stripe, Razorpay, Mapbox, and Clerk for seamless user experiences and payment processing.",
     imgUrl: "/about04.png",
   },
 ];
