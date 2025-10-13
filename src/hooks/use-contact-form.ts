@@ -59,7 +59,7 @@ export const useContactForm = () => {
           description: "Something went wrong. Please try again later.",
         });
       }
-    } catch (error) {
+    } catch {
       toast.error("Error sending message.", {
         description: "Please check your internet connection and try again.",
       });

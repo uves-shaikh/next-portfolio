@@ -1,10 +1,10 @@
 "use client";
-import { motion } from "framer-motion";
 import { NavigationDots } from "@/components";
-import "./Header.scss";
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { FaNodeJs, FaReact } from "react-icons/fa";
+import { motion } from "framer-motion";
+import { FaNodeJs } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 import { SiNeo4J } from "react-icons/si";
+import "./Header.scss";
 
 const scaleVariants = {
   whileInView: {
