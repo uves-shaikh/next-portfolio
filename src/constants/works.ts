@@ -1,23 +1,20 @@
 export const works = [
   {
-    title: "OmniGrowthOS",
+    title: "Project Alpha",
     description:
       "Business growth operating system platform with three distinct panels — web interface, admin dashboard, and data correction panel. Features real-time notifications and Mapbox integration for spatial data visualization.",
-    projectLink: "https://www.omnigrowthos.io",
     imgUrl: "/works/portfolio.jpg",
   },
   {
-    title: "FlowRad.AI",
+    title: "Project Zenith",
     description:
       "AI-Powered Radiology Reporting Platform with structured templates, auto-filled findings, and guided reporting approach. Integrated Clerk for authentication and Razorpay for payments.",
-    projectLink: "https://app.flowrad.ai",
     imgUrl: "/works/cinesphere.png",
   },
   {
-    title: "Macarne",
+    title: "Project Nova",
     description:
       "Network infrastructure services platform built with Next.js app-router architecture. Features admin panel for inventory management and server/client components for optimal performance.",
-    projectLink: "https://macarne.com/",
     imgUrl: "/works/mealmates.png",
   },
   {
